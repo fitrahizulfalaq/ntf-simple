@@ -61,4 +61,11 @@ function kirimWA($hp,$kalimat){
 }
 
 kirimWA("081231390340",$kalimat);
-// kirimWA("081234381239",$kalimat);
+kirimWA("081234381239",$kalimat);
+kirimWA("081333673000", $kalimat); // Mas Heri
+kirimWA("082233303178", $kalimat); // Mas Firdaus
+kirimWA("081230379610", $kalimat); // Pak Yunan
+kirimWA("081334754331", $kalimat); // Pak Yayak
+kirimWA("085258927995", $kalimat); // Nyla
+kirimWA("081222882015", $kalimat); // Pak Nana
+kirimWA("085655525338", $kalimat); // Mbak Nia}
