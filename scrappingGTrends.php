@@ -31,7 +31,7 @@ foreach ($xml->channel->item as $data) {
     $kalimat = $kalimat . $data->title . "\n" . $data->pubDate . "\n" . $tag . "\n" . $data->children('ht', true)->approx_traffic . "\n\n";
 }
 
-$kalimat = "*TOPIK POPULER UPDATE DARI GOOGLE TRENDS " . date("d-m-Y H:i:sa") . "*\n\n" . $kalimat;
+$kalimat = "*TOPIK POPULER UPDATE DARI GOOGLE TRENDS " . date("d-m-Y H:i:sa") . "*\n\n" . $kalimat ."\n\nby IT JTN";
 
 function kirimWA($hp,$kalimat){
     //API dari Whacenter
